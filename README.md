@@ -171,7 +171,7 @@ local function loading()
 	TextLabel_2.Position = UDim2.new(0.0299999993, 0, 0, 0)
 	TextLabel_2.Size = UDim2.new(0, 61, 0, 30)
 	TextLabel_2.Font = Enum.Font.GothamSemibold
-	TextLabel_2.Text = "  ARKLMOshi"
+	TextLabel_2.Text = "  Miracle"
 	TextLabel_2.TextColor3 = Color3.fromRGB(147,112,219)
 	TextLabel_2.TextSize = 17.000
 
@@ -324,7 +324,7 @@ function Update:Window(text,logo,keybind)
 	Name.Position = UDim2.new(0.0609756112, 0, 0, 0)
 	Name.Size = UDim2.new(0, 61, 0, 27)
 	Name.Font = Enum.Font.GothamSemibold
-	Name.Text = "ARKLMOshi"
+	Name.Text = "Miracle"
 	Name.TextColor3 = Color3.fromRGB(147,112,219)
 	Name.TextSize = 17.000
 
@@ -2298,7 +2298,7 @@ end
         game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
     end)
 
-local Library = Update:Window("ARKLMOshi.      Hub","",Enum.KeyCode.RightControl);
+local Library = Update:Window("Miracle Hub","",Enum.KeyCode.RightControl);
 Main = Library:Tab("Main")
 
 Main:Line()
@@ -2419,7 +2419,7 @@ local StopCamera = require(game.ReplicatedStorage.Util.CameraShaker)StopCamera:S
                                  pcall(function()
                                      v.activeController.timeToNextAttack = -(math.huge^math.huge^math.huge)
                                      v.activeController.attacking = false
-                                     v.activeController.increment = 6
+                                     v.activeController.increment = 10
                                      v.activeController.blocking = false   
                                      v.activeController.hitboxMagnitude = 150
     		                         v.activeController.humanoid.AutoRotate = true
